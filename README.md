@@ -1,12 +1,17 @@
 ## RSpec Basics
 
+### Intro
+Welcome to using RSpec! Here's a short intro to getting up to speed. If you're here after using m-spec, it was designed to help you quickly get to grips with RSpec. RSpec is an industry-standard tool for teams using Ruby, it's fully featured, well-documented, and helps you keep your test code DRY.
+
+The trade-off for keeping code DRY is abstraction, and it can be tough for beginners to grapple with a lot of abstraction. So this repository is aimed for you to play with and learn by doing. Write specs, run specs, and have fun!
+
 ### Quick Setup
 
-`mkdir [dirname]` to create a new project directory
-`cd` into the directory
-`bundle init` to add a Gemfile
-`bundle add rspec` to add rspec
-`rspec --init` to initialize the framework
+- `mkdir [dirname]` to create a new project directory
+- `cd` into the directory
+- `bundle init` to add a Gemfile
+- `bundle add rspec` to add rspec
+- `rspec --init` to initialize the framework
 
 ### Inquiry Projects
 
@@ -18,11 +23,11 @@ create   spec/spec_helper.rb
 ```
 
 #### 2. Write a simple spec
-In a new project directory, initialize RSpec and use it to write a simple spec. If you need inspiration, write your own spec for [Animal#roar](lib/animal.rb).
+In a new project directory, initialise RSpec and use it to write a simple spec. If you need inspiration, write your own spec for [Animal#roar](lib/animal.rb).
 
 #### 3. Use RSpec mocks in a spec
 
-Practice using RSpec's `double()` method. Write down your observations.
+Practice using RSpec's `double()` method. Write down your observations. Run `irb` and play around with the methods. Or use `pry` to [pause your code path](https://medium.com/@eddgr/the-absolute-beginners-guide-to-using-pry-in-ruby-b08681558fa6) during a test run.
 
 #### 4. Investigate
 
