@@ -12,9 +12,14 @@ describe Animal do
   end
 end
 
+# -----------------------------------------------
+
+# Further exploration
+
+# -----------------------------------------------
 
 describe 'using a string description' do
-  # what happens now?
+  # what happens now when this test runs? Why?
   subject(:animal) { described_class.new }
 
   it 'can roar' do
@@ -28,6 +33,7 @@ end
 describe 'using subject' do
   it 'can roar' do
     # use p() to investigate what the return value of #subject is
+    # when should you use an explicit subject and when should you alias it?
     expect(subject.roar).to eq 'ROAR!'
   end
 end
