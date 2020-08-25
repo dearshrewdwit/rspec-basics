@@ -3,7 +3,7 @@
 ### Intro
 Welcome to using RSpec! Here's a short intro to getting up to speed. If you're here after using [m-spec](https://github.com/dearshrewdwit/m-spec), it was designed to help you quickly get to grips with RSpec. RSpec is an industry-standard tool for teams using Ruby, it's fully featured, well-documented, and helps you keep your test code DRY.
 
-The trade-off for keeping code DRY is abstraction, and it can be tough for beginners to grapple with a lot of abstraction. So this repository is aimed for you to play with and learn by doing. Write specs, run specs, and have fun!
+The trade-off for keeping code DRY is abstraction, and it can be tough for beginners to grapple with a lot of abstraction. So this repository is aimed for you to play with and learn by doing. Write specs, run the specs, read the comments in the files, explore and have fun! :)
 
 ### Quick Setup
 
