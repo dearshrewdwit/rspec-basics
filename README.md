@@ -41,7 +41,7 @@ Practice using RSpec's `double()` method. Write down your observations. Run `irb
 - [RSpec best practice guidelines](https://www.betterspecs.org/)
 
 #### Usage Notes
-1. RSpec adds the `lib` directory to the load path if it's available, so you can use the require method relative from it - eg: [simple usage spec](spec/simple_usage_spec)
+1. RSpec adds the `lib` directory to the load path if it's available, so you can use the require method relative from it - eg: [simple usage spec](spec/simple_usage_spec.rb)
 2. RSpec has it's own spec runner, so running `rspec` by itself runs all the specs it finds.
 3. NB: RSpec will automatically try to find any spec in your `spec` directory named `*_spec.rb` - pay attention to your file names.
 4. To run an individual file, pass the filepath `rspec spec/tests_should_run_independently_spec.rb`
